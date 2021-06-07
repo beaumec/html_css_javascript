@@ -3,11 +3,19 @@ header {
 }
 
 #uniqueId {
-  height: 200px;
-}
+  height: 400px;
+  }
 
 .centered {
   border: 2px dotted blue;
   display: flex;
   justify-content: center;
+}
+.unip li{
+  list-style: none;
+  padding: 12px 6px 12px 6px;
+  }
+.unip li:nth-child(odd){
+  background-color: blueviolet;
+
 }
