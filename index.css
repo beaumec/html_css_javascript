@@ -1,21 +1,51 @@
-header {
+header, footer {
   color: red;
 }
 
 #uniqueId {
   height: 400px;
-  }
-
+}
 .centered {
   border: 2px dotted blue;
   display: flex;
   justify-content: center;
 }
-.unip li{
+.unip li {
   list-style: none;
   padding: 12px 6px 12px 6px;
-  }
+}
+.unip li:hover {
+  cursor: pointer;
+  background-color: pink;
+}
 .unip li:nth-child(odd){
   background-color: blueviolet;
+}
 
+.main-container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 10% 80% 10%;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.site {
+  width: -webkit-fill-available;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #2c38a7;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-evenly;
 }
