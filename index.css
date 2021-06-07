@@ -1,0 +1,13 @@
+header {
+  color: red;
+}
+
+#uniqueId {
+  height: 200px;
+}
+
+.centered {
+  border: 2px dotted blue;
+  display: flex;
+  justify-content: center;
+}
